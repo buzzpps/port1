@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Rajdhani:500&display=swap);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+	body {
+    	position: relative;
+		padding-top: 5em;
+		font-family: "Noto Sans KR";
+	}
+
+	#header {
+   		background-color: white;
+    	cursor: default;
+    	height: 5em;
+    	left: 0;
+    	line-height: 5em;
+    	position: fixed;
+    	text-align: right;
+    	top: 0;
+		width: 100%;
+		z-index: 1001;
+	}
+
+    #header .inner {
+        max-width: 65em;
+        width: calc(100% - 6em);
+        margin: 0 auto;
+		position: relative;
+    }
+
+    #header .logo {
+        display: inline-block;
+        height: inherit;
+        left: 0;
+        line-height: inherit;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        color: black;
+        font-size: 1.75em;
+        text-transform: none;
+        font-weight: normal;
+		padding: 0;
+		font-family: 'Pacifico', cursive;
+    }
+
+    #header a {
+        display: inline-block;
+        padding: 0 2em;
+        color: black;
+        text-decoration: none;
+        font-weight: normal;
+		font-size: 20px;
+		font-family: 'Rajdhani', sans-serif;
+    }
+
+	section{
+        max-width: 65em;
+        width: calc(100% - 6em);
+        margin: 0 auto;
+		position: relative;
+    }
+    
+    p.maintext2 { 
+		font-size: 36px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 70px;
+		margin-bottom: 1px;
+	}
+	
+	p.subtext2 {
+		font-size: 18px;
+		font-weight: lighter;
+		text-align: center;
+		line-height: 1.0;
+		color:#6c6c6c;
+		margin-top:8px;
+		margin-bottom: 50px;
+	}
+
+	p, a {
+		color:black;
+	}
+	.jiko {
+		line-height:100%;
+	}
+	#mm {
+		font-weight: 500;
+		}
+	#dd {
+		font-weight: 300;
+		line-height:100%;
+	}
+
+	#footer {
+		color: black;
+		padding: 100px 0 2em 00;
+		max-width: 65em;
+		width: calc(100% - 6em);
+		margin: 0 auto;
+		font-size: 0.9em;	
+		text-decoration: none;
+	}
+	#footer a .b {
+		position:fixed;
+		bottom:30px;
+		right:3px;
+	}
+	#footer p {
+		text-align: center;
+	}
