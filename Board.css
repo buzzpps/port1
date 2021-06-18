@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Rajdhani:500&display=swap);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+	body {
+    	position: relative;
+		padding-top: 5em;
+		font-family: "Noto Sans KR";
+	}
+
+	#header {
+   		background-color: white;
+    	cursor: default;
+    	height: 5em;
+    	left: 0;
+    	line-height: 5em;
+    	position: fixed;
+    	text-align: right;
+    	top: 0;
+		width: 100%;
+		z-index: 1001;
+	}
+
+    #header .inner {
+        max-width: 65em;
+        width: calc(100% - 6em);
+        margin: 0 auto;
+		position: relative;
+    }
+
+    #header .logo {
+        display: inline-block;
+        height: inherit;
+        left: 0;
+        line-height: inherit;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        color: black;
+        font-size: 1.75em;
+        text-transform: none;
+        font-weight: normal;
+		padding: 0;
+		font-family: 'Pacifico', cursive;
+    }
+
+    #header a {
+        display: inline-block;
+        padding: 0 2em;
+        color: black;
+        text-decoration: none;
+        font-weight: normal;
+		font-size: 20px;
+		font-family: 'Rajdhani', sans-serif;
+    }
+
+    #header a:hover {
+            color: gray;
+    }
+
+	section{
+        max-width: 65em;
+        width: calc(100% - 6em);
+        margin: 0 auto;
+		position: relative;
+    }
+    
+    p.maintext2 { 
+		font-size: 36px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 70px;
+		margin-bottom: 1px;
+	}
+	
+	p.subtext2 {
+		font-size: 18px;
+		font-weight: lighter;
+		text-align: center;
+		line-height: 1.0;
+		color:#6c6c6c;
+		margin-top:8px;
+		margin-bottom: 50px;
+	}
+    
+    .boards {		
+		color:gray;
+		font-size:12px;
+		table-layout:fixed;
+		width: 55%;
+		height: auto;
+        margin-left: auto; 
+		margin-right: auto;
+		border:0;
+    }
+
+    .boards a{
+		color:#6c6c6c;
+		text-decoration:none;
+	}
+
+    .boards th{
+		padding:5px 0 6px;
+		border:0;
+		border-top:solid 1px gray;
+		border-bottom:solid 1px gray;
+		background-color:#f1f1f1;
+		color:#6c6c6c;
+		font-weight:bold;
+		line-height:20px;
+		vertical-align:top;
+	}
+    .boards td{
+		padding:8px 0 9px;
+		border:0;
+		border-bottom:solid 1px #d2d2d2;
+		text-align:center;
+		line-height:18px;
+	}
+    .boards .date,.boards .click{
+		padding:0;
+		font-size:11px;
+		line-height:normal;
+	}
+    .boards .title{
+		text-align:left;
+		padding-left:15px; 
+		font-size:13px;
+	}
+    .boards .title a.comment{
+		padding:0;
+		background:none;
+		color:red;
+		font-size:12px;
+		font-weight:bold;
+	}
+
+	.buttons {
+        margin-top: 10px; 
+		vertical-align:middle;
+		text-align: center;
+	}
+
+	#footer {
+		color: black;
+		padding: 200px 0 2em 00;
+		max-width: 65em;
+		width: calc(100% - 6em);
+		margin: 0 auto;
+		font-size: 0.9em;	
+		text-decoration: none;
+	}
+	#footer a .b {
+		position:fixed;
+		bottom:30px;
+		right:3px;
+	}
+	#footer p {
+		text-align: center;
+	}
