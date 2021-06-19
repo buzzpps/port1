@@ -1,10 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Pacifico&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Rajdhani:500&display=swap);
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:500&display=swap');
+@import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
 	body {
     	position: relative;
 		padding-top: 5em;
-		font-family: 'Noto Sans KR', sans-serif;
+		font-family: "Noto Sans KR";
 	}
 
 	#header {
@@ -54,6 +55,10 @@
 		font-family: 'Rajdhani', sans-serif;
     }
 
+    #header a:hover {
+            color: gray;
+    }
+	
 	section{
         max-width: 65em;
         width: calc(100% - 6em);
@@ -77,25 +82,21 @@
 		color:#6c6c6c;
 		margin-top:8px;
 		margin-bottom: 50px;
-	}
-
-	p, a {
-		color:black;
-	}
-	.jiko {
-		line-height:100%;
-	}
-	#mm {
-		font-weight: 500;
-		}
-	#dd {
-		font-weight: 300;
-		line-height:100%;
-	}
+    }
+    
+    p.jemoks {
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    p.subs {
+        font-weight: 400;
+        margin-bottom: 120px;
+    }
 
 	#footer {
 		color: black;
-		padding: 100px 0 2em 00;
+		padding: 50px 0 2em 00;
 		max-width: 65em;
 		width: calc(100% - 6em);
 		margin: 0 auto;
