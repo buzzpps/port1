@@ -84,6 +84,7 @@
 	}
 	.jiko {
 		line-height:100%;
+		text-align: center;
 	}
 	#mm {
 		font-weight: 500;
@@ -108,5 +109,8 @@
 		right:3px;
 	}
 	#footer p {
+		text-align: center;
+	}
+	.jemok {
 		text-align: center;
 	}
